@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Oswald', sans-serif;
+    background-color: black;
+    color: white;
+}
+.nav{
+    position: fixed;
+    margin-left: 40px;
+    padding: 20px;
+    text-align: left;
+    z-index: 99;
+    display: none;
+    opacity: 0.7;
+    border-radius: 10px;
+    border: 2px solid blueviolet;
+    }
+header nav a{
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.nav-bar{
+    position: fixed;
+    font-size: 25px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    cursor: pointer;
+    transition: 0.4s;
+    padding-left: 10px;
+}
+
+header nav a{
+    text-decoration: none;
+    display: block;
+    color: #F8BBD0;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+header h1{
+    color:blueviolet;
+    font-weight: bold;
+    align-items: center;
+    text-align: center;
+    padding-top: 75px;
+    float: right;
+    margin-right: 200px;
+    letter-spacing: 5px;
+}
+header img{
+    border: solid blueviolet 3px;
+    border-radius: 100%;
+    margin-left: 200px;
+    object-fit: cover;
+    height: 150px;
+    width: 150px;
+    margin-top: 20px; 
+}
+.descripcion{
+    display: flex;
+    border: solid 2px blueviolet;
+    background-color: hotpink;
+    border-radius: 20px;
+    height: auto;
+    text-align: center;
+    align-items: center;
+    font-weight: bold;
+   width: 80%;
+   margin-top: 50px;
+   font-size: 20px;
+   margin-left: auto;
+   margin-right: auto;
+   margin-bottom: 30px;
+padding: 2px;
+}
+.social{
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+    align-items: center;
+    
+}
+.red{
+    display: inline-block;
+    text-decoration: none;
+    width: 30px;
+    height: 30px;
+    color: blueviolet;
+    line-height: 30px;
+    margin: 0 5px;
+    transition: 0.3s;
+}
+.cv{
+    font-size: 25px;
+    text-align: center;
+    align-items: center;
+    font-weight: bold;
+    border: 3px solid hotpink;
+    border-radius: 80px;
+    margin-bottom: 30px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    background-color: blueviolet;
+}
+
+.formacion{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(22rem,1fr));
+    grid-auto-rows: 8rem;
+    text-align: center;
+    border: 2px hotpink solid;
+    align-items: center;
+    font-size: 18px;
+}
+.item1{
+   margin: auto;
+}
+h2{
+    color: #F8BBD0 ;
+}
+.exp{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(22rem,1fr));
+    grid-auto-rows: 10rem;
+    text-align: center;
+    align-items: center;
+    border: 2px solid hotpink;
+    margin: auto;
+    font-size: 18px;
+
+}
+.habilidades{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(22rem,1fr));
+    grid-auto-rows: 10rem;
+    text-align: center;
+    border: 2px solid hotpink;
+    align-items: center;
+    font-size: 18px;
+    
+}
+.hab{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(22rem,1fr));
+    grid-auto-rows: 7rem;
+    align-items: center;
+    text-align: center;
+    border: 2px hotpink solid;
+}
+
+.contacto{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(22rem,1fr));
+    grid-auto-rows: 7rem;
+    text-align: center;
+    align-items: center;
+    border: 2px solid hotpink;
+    font-size: 18px;
+}
+footer{
+    margin-top: 50px;
+    color: violet;
+ text-align: center;
+    
+}
+@media screen and (max-widht:768px){
+    h1{ font-size: 15px}
+    .descripcion{
+        font-size: 14px;
+        color: aqua;
+    }
+}
