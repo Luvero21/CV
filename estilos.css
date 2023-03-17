@@ -8,6 +8,7 @@
 }
 .nav{
     position: fixed;
+    display: flex;
     margin-left: 40px;
     padding: 20px;
     text-align: left;
@@ -72,7 +73,7 @@ header img{
     font-weight: bold;
    width: 80%;
    margin-top: 50px;
-   font-size: 20px;
+   font-size: 23px;
    margin-left: auto;
    margin-right: auto;
    margin-bottom: 30px;
@@ -117,7 +118,7 @@ padding: 2px;
     text-align: center;
     border: 2px hotpink solid;
     align-items: center;
-    font-size: 18px;
+    font-size: 20px;
 }
 .item1{
    margin: auto;
@@ -170,10 +171,26 @@ footer{
  text-align: center;
     
 }
-@media screen and (max-widht:768px){
-    h1{ font-size: 15px}
+@media screen and (max-widht:425px){
+    h1{ font-size: 15px;
+        margin-right: 0;
+        float: none;
+    }
     .descripcion{
         font-size: 14px;
         color: aqua;
     }
+    .formacion{
+        grid-auto-rows: 5rem;
+    }
+    .exp{
+        grid-auto-rows: 5rem;
+    }
+    .habilidades{
+        grid-auto-rows: 5rem;
+    }
+    .contacto{
+        grid-auto-rows: 5rem;
+    }
+
 }
